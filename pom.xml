@@ -233,12 +233,12 @@
         <repository>
             <id>finntech-thirdparty-release</id>
             <name>Finntech internal maven releases</name>
-            <url>dav:http://mavenproxy.finntech.no/finntech-thirdparty/</url>
+            <url>http://mavenproxy.finntech.no/finntech-thirdparty/</url>
         </repository>
         <snapshotRepository>
             <id>finntech-thridparty-snapshot</id>
             <name>Finntech internal maven snapshots</name>
-            <url>dav:http://mavenproxy.finntech.no/finntech-thirdparty-snapshot/</url>
+            <url>http://mavenproxy.finntech.no/finntech-thirdparty-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
 
