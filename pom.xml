@@ -4,7 +4,7 @@
 
     <groupId>com.github.neilprosser</groupId>
     <artifactId>logstash-logback-encoder</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1-finn-1-SNAPSHOT</version>
 
     <name>Logstash Logback Encoder</name>
     <description>Logback encoder which will output events as Logstash-compatible JSON</description>
@@ -17,9 +17,11 @@
     </parent>
 
     <scm>
-        <connection>scm:git:git@github.com:neilprosser/logstash-logback-encoder.git</connection>
-        <developerConnection>scm:git:git@github.com:neilprosser/logstash-logback-encoder.git</developerConnection>
+      <connection>scm:git:git@github.com:finn-no/logstash-logback-encoder.git</connection>
+      <url>scm:git:git@github.com:finn-no/logstash-logback-encoder.git</url>
+      <developerConnection>scm:git:git@github.com:finn-no/logstash-logback-encoder.git</developerConnection>
     </scm>
+
 
     <prerequisites>
         <maven>2.2.1</maven>
