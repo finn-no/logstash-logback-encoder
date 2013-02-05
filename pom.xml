@@ -17,8 +17,9 @@
     </parent>
 
     <scm>
-        <connection>scm:git:git@github.com:finn-no/logstash-logback-encoder.git</connection>
-        <developerConnection>scm:git:git@github.com:finn-no/logstash-logback-encoder.git</developerConnection>
+      <connection>scm:git:git@github.com:finn-no/logstash-logback-encoder.git</connection>
+      <url>scm:git:git@github.com:finn-no/logstash-logback-encoder.git</url>
+      <developerConnection>scm:git:git@github.com:finn-no/logstash-logback-encoder.git</developerConnection>
     </scm>
 
     <prerequisites>
@@ -126,7 +127,6 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.2.1</version>
             </plugin>
-        
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
