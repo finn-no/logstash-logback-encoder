@@ -17,8 +17,8 @@
     </parent>
 
     <scm>
-        <connection>scm:git:git@github.com:neilprosser/logstash-logback-encoder.git</connection>
-        <developerConnection>scm:git:git@github.com:neilprosser/logstash-logback-encoder.git</developerConnection>
+        <connection>scm:git:git@github.com:finn-no/logstash-logback-encoder.git</connection>
+        <developerConnection>scm:git:git@github.com:finn-no/logstash-logback-encoder.git</developerConnection>
     </scm>
 
     <prerequisites>
@@ -126,31 +126,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.2.1</version>
             </plugin>
-            <plugin>
-                <groupId>com.mycila.maven-license-plugin</groupId>
-                <artifactId>maven-license-plugin</artifactId>
-                <version>1.9.0</version>
-                <configuration>
-                    <header>LICENSE</header>
-                    <strictCheck>true</strictCheck>
-                    <aggregate>true</aggregate>
-                    <encoding>UTF-8</encoding>
-                    <failIfMissing>true</failIfMissing>
-                    <skipExistingHeaders>true</skipExistingHeaders>
-                    <includes>
-                        <include>**/src/main/java/**</include>
-                        <include>**/src/test/java/**</include>
-                    </includes>
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>process-sources</phase>
-                        <goals>
-                            <goal>format</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+        
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
@@ -197,35 +173,6 @@
                 </configuration>
             </plugin>
         </plugins>
-        <pluginManagement>
-            <plugins>
-                <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself. -->
-                <plugin>
-                    <groupId>org.eclipse.m2e</groupId>
-                    <artifactId>lifecycle-mapping</artifactId>
-                    <version>1.0.0</version>
-                    <configuration>
-                        <lifecycleMappingMetadata>
-                            <pluginExecutions>
-                                <pluginExecution>
-                                    <pluginExecutionFilter>
-                                        <groupId>com.mycila.maven-license-plugin</groupId>
-                                        <artifactId>maven-license-plugin</artifactId>
-                                        <versionRange>[1.9.0,)</versionRange>
-                                        <goals>
-                                            <goal>format</goal>
-                                        </goals>
-                                    </pluginExecutionFilter>
-                                    <action>
-                                        <ignore></ignore>
-                                    </action>
-                                </pluginExecution>
-                            </pluginExecutions>
-                        </lifecycleMappingMetadata>
-                    </configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
     </build>
 
 
