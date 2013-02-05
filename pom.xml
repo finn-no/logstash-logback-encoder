@@ -4,7 +4,7 @@
 
     <groupId>com.github.neilprosser</groupId>
     <artifactId>logstash-logback-encoder</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <name>Logstash Logback Encoder</name>
     <description>Logback encoder which will output events as Logstash-compatible JSON</description>
